@@ -29,11 +29,7 @@ SoftXPath Tutorials & Examples
 |:----|:----|:----|:----
 |**load**|expects valid path to <b>xml file</b> as parameter and loads given file|`myXpathObj.load("flash_vs_page.xml")`|`true/false`
 |**loadXML**|expects valid <b>xml string</b> as parameter and loads given string|`myXpathObj.loadXML("<root><item color='blue'>demo1</item><item color='red'>demo2</item><item color='blue'>demo3</item></root>")`|`true/false`
-|**registerNamespace**|expects <b>prefix</b>/<b>URI</b> pair and sets user defined namespaces<br>default is none - myXpathObj.<b>registerNamespace</b>("","")|myXpathObj.<b>registerNamespace</b>("<b>xsl</b>","<b>http://www.softxml.com</b>")<br>
-myXpathObj.<b>loadXML</b>("&lt;xsl:root xmlns:xsl='http://www.softxml.com'&gt;&lt;xsl:item color='blue'&gt;demo1&lt;/xsl:item&gt;&lt;xsl:item color='red'&gt;demo2&lt;/xsl:item&gt;&lt;xsl:item color='blue'&gt;demo3&lt;/xsl:item&gt;&lt;/xsl:root&gt;")<br>
-<b>After defining namespace you don't need to change your xpath expression</b><br>
-var results = myXpathObj.<b>selectNodes</b>("//item[@color='blue']");
-|
+
 |**selectNodes**|expects valid <b>xpath expression</b> and returns array of objects|`var results = myXpathObj.selectNodes("//item[@color='blue']")`|var results = myXpathObj.<b>selectNodes</b>("//item[@color='blue']");<br>
 <b>Check array length to see if there are matched nodes:</b><br>
 <pre>if(results.length==0){
