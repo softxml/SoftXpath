@@ -56,6 +56,9 @@ else
 
 Examples
 -------------
+SoftXpath load method
+Our XML file called "flash_vs_page.xml" and it's structure shown below:
+-------------
 <pre>
 	&lt;?xml version="1.0"?&gt;
 		&lt;xsl:categories xmlns:xsl="http://www.softxml.com"&gt;
@@ -118,8 +121,25 @@ Examples
 		&lt;/xsl:categories&gt;
 </pre>
 
-
-Online Demo
+JavaScript Code
 -------------
+<pre>
+var myXpathObj = new SoftXpath();
+	myXpathObj.registerNamespace("xsl","http://www.softxml.com");
+	if(myXpathObj.load("flash_vs_page.xml")){
+		re = myXpathObj.selectNodes("//page[./parent::language[@name='he'] and ./@name='aboutSixt.asp']/@value");
+		if(re.length==0){
+			alert("No records found!");
+		}
+		else{
+			for(var i=0;i<re.length;i++){
+				alert(re[i].text);
+			}
+		}	
+	}
+	else{
+		alert("Loading xml file failed!");
+	}
+</pre>
 
-[SoftXpath Online Demo](http://www.softxml.com/SoftXPathDemo.htm)
+
