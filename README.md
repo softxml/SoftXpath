@@ -142,60 +142,60 @@ JavaScript Code
 	}
 </pre>
 
+
 SoftXpath **loadXML** method
 Our XML string shown below:
 -------------
 <pre>
 	&lt;?xml version="1.0"?&gt;
-&lt;catalog&gt;
-   &lt;product description="Cardigan Sweater" product_image="cardigan.jpg"&gt;
-      &lt;catalog_item gender="Men's"&gt;
-         &lt;item_number&gt;QWZ5671&lt;/item_number&gt;
-         &lt;price&gt;39.95&lt;/price&gt;
-         &lt;size description="Medium"&gt;
-            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
-            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
-         &lt;/size&gt;
-         &lt;size description="Large"&gt;
-            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
-            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
-         &lt;/size&gt;
-      &lt;/catalog_item&gt;
-      &lt;catalog_item gender="Women's"&gt;
-         &lt;item_number&gt;RRX9856&lt;/item_number&gt;
-         &lt;price&gt;42.50&lt;/price&gt;
-         &lt;size description="Small"&gt;
-            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
-            &lt;color_swatch image="navy_cardigan.jpg"&gt;Navy&lt;/color_swatch&gt;
-            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
-         &lt;/size&gt;
-         &lt;size description="Medium"&gt;
-            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
-            &lt;color_swatch image="navy_cardigan.jpg"&gt;Navy&lt;/color_swatch&gt;
-            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
-            &lt;color_swatch image="black_cardigan.jpg"&gt;Black&lt;/color_swatch&gt;
-         &lt;/size&gt;
-         &lt;size description="Large"&gt;
-            &lt;color_swatch image="navy_cardigan.jpg"&gt;Navy&lt;/color_swatch&gt;
-            &lt;color_swatch image="black_cardigan.jpg"&gt;Black&lt;/color_swatch&gt;
-         &lt;/size&gt;
-         &lt;size description="Extra Large"&gt;
-            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
-            &lt;color_swatch image="black_cardigan.jpg"&gt;Black&lt;/color_swatch&gt;
-         &lt;/size&gt;
-      &lt;/catalog_item&gt;
-   &lt;/product&gt;
-&lt;/catalog&gt;
-
+	&lt;catalog&gt;
+	   &lt;product description="Cardigan Sweater" product_image="cardigan.jpg"&gt;
+	      &lt;catalog_item gender="Men's"&gt;
+	         &lt;item_number&gt;QWZ5671&lt;/item_number&gt;
+	         &lt;price&gt;39.95&lt;/price&gt;
+	         &lt;size description="Medium"&gt;
+	            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
+	            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
+	         &lt;/size&gt;
+	         &lt;size description="Large"&gt;
+	            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
+	            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
+	         &lt;/size&gt;
+	      &lt;/catalog_item&gt;
+	      &lt;catalog_item gender="Women's"&gt;
+	         &lt;item_number&gt;RRX9856&lt;/item_number&gt;
+	         &lt;price&gt;42.50&lt;/price&gt;
+	         &lt;size description="Small"&gt;
+	            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
+	            &lt;color_swatch image="navy_cardigan.jpg"&gt;Navy&lt;/color_swatch&gt;
+	            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
+	         &lt;/size&gt;
+	         &lt;size description="Medium"&gt;
+	            &lt;color_swatch image="red_cardigan.jpg"&gt;Red&lt;/color_swatch&gt;
+	            &lt;color_swatch image="navy_cardigan.jpg"&gt;Navy&lt;/color_swatch&gt;
+	            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
+	            &lt;color_swatch image="black_cardigan.jpg"&gt;Black&lt;/color_swatch&gt;
+	         &lt;/size&gt;
+	         &lt;size description="Large"&gt;
+	            &lt;color_swatch image="navy_cardigan.jpg"&gt;Navy&lt;/color_swatch&gt;
+	            &lt;color_swatch image="black_cardigan.jpg"&gt;Black&lt;/color_swatch&gt;
+	         &lt;/size&gt;
+	         &lt;size description="Extra Large"&gt;
+	            &lt;color_swatch image="burgundy_cardigan.jpg"&gt;Burgundy&lt;/color_swatch&gt;
+	            &lt;color_swatch image="black_cardigan.jpg"&gt;Black&lt;/color_swatch&gt;
+	         &lt;/size&gt;
+	      &lt;/catalog_item&gt;
+	   &lt;/product&gt;
+	&lt;/catalog&gt;
 </pre>
 
 JavaScript Code
 -------------
 <pre>
 	var myXpathObj = new SoftXpath();
-	myXpathObj.registerNamespace("xsl","http://www.softxml.com");
-	if(myXpathObj.load("flash_vs_page.xml")){
-		var results = myXpathObj.selectNodes("//page[./parent::language[@name='he'] and ./@name='aboutSixt.asp']/@value");
+	myXpathObj.registerNamespace('','');
+	if(myXpathObj.loadXML(xmlstring)){
+		var results = myXpathObj.selectNodes("//color_swatch[./ancestor::catalog_item/child::item_number[text()='QWZ5671'] and ./parent::size[@description='Medium']]");
 		if(results.length==0){
 			alert("No records found!");
 		}
@@ -203,10 +203,10 @@ JavaScript Code
 			for(var i=0;i&lt;results.length;i++){
 				alert(results[i].text);
 			}
-		}	
+		}
 	}
 	else{
-		alert("Loading xml file failed!");
+		alert("Loading xml string failed!");
 	}
 </pre>
 
