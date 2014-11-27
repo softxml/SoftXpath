@@ -53,6 +53,71 @@ else
 }
 </pre>
 
+Examples
+-------------
+<pre>
+	&lt;?xml version="1.0"?&gt;
+		&lt;xsl:categories xmlns:xsl="http://www.softxml.com"&gt;
+			&lt;xsl:category name="CLeasing"&gt;
+				&lt;xsl:language name="en"&gt;
+					&lt;xsl:page name="aboutSixt.asp" value="video_41.swf"/&gt;
+					&lt;xsl:page name="aboutUs.asp" value="video_42.swf"/&gt;
+					&lt;xsl:page name="advantage.asp" value="video_43.swf"/&gt;
+					&lt;xsl:page name="club.asp" value="video_44.swf"/&gt;
+					&lt;xsl:page name="Cservice.asp" value="video_45.swf"/&gt;
+					&lt;xsl:page name="infoSafety.asp" value="video_46.swf"/&gt;
+					&lt;xsl:page name="LetterFinal.asp" value="video_47.swf"/&gt;
+					&lt;xsl:page name="orderInfo.asp" value="video_48.swf"/&gt;
+					&lt;xsl:page name="pressRelease.asp" value="video_49.swf"/&gt;
+					&lt;xsl:page name="Resultview.asp" value="video_50.swf"/&gt;
+					&lt;xsl:page name="roadTests.asp" value="video_51.swf"/&gt;
+					&lt;xsl:page name="SearchAdvanceB.asp" value="video_52.swf"/&gt;
+					&lt;xsl:page name="SearchQuickB.asp" value="video_53.swf"/&gt;
+					&lt;xsl:page name="SearchResultB.asp" value="video_54.swf"/&gt;
+					&lt;xsl:page name="service.asp" value="video_55.swf"/&gt;
+					&lt;xsl:page name="SI_jobs.asp" value="video_56.swf"/&gt;
+					&lt;xsl:page name="SI_orderFix.asp" value="video_57.swf"/&gt;
+					&lt;xsl:page name="SI_writeus.asp" value="video_58.swf"/&gt;
+					&lt;xsl:page name="SupplementsB.asp" value="video_59.swf"/&gt;
+					&lt;xsl:page name="ResultView.asp" value="video_60.swf"/&gt;
+					&lt;xsl:page name="branches.asp" value="video_61.swf"/&gt;
+					&lt;xsl:page name="login.asp" value="video_62.swf"/&gt;
+					&lt;xsl:page name="makelogin.asp" value="video_63.swf"/&gt;
+					&lt;xsl:page name="personal.asp" value="video_64.swf"/&gt;
+				&lt;/xsl:language&gt;
+				&lt;xsl:language name="he"&gt;
+					&lt;xsl:page name="aboutSixt.asp" value="new_kopel_key_120x150.swf"/&gt;
+					&lt;xsl:page name="aboutUs.asp" value="new_kopel_key_120x151.swf"/&gt;
+					&lt;xsl:page name="advantage.asp" value="new_kopel_key_120x152.swf"/&gt;
+					&lt;xsl:page name="club.asp" value="new_kopel_key_120x153.swf"/&gt;
+					&lt;xsl:page name="Cservice.asp" value="new_kopel_key_120x154.swf"/&gt;
+					&lt;xsl:page name="infoSafety.asp" value="new_kopel_key_120x155.swf"/&gt;
+					&lt;xsl:page name="LetterFinal.asp" value="new_kopel_key_120x156.swf"/&gt;
+					&lt;xsl:page name="orderInfo.asp" value="new_kopel_key_120x157.swf"/&gt;
+					&lt;xsl:page name="pressRelease.asp" value="new_kopel_key_120x158.swf"/&gt;
+					&lt;xsl:page name="accident.asp" value="new_kopel_key_120x159.swf"/&gt;
+					&lt;xsl:page name="Resultview.asp" value="new_kopel_key_120x160.swf"/&gt;
+					&lt;xsl:page name="roadTests.asp" value="new_kopel_key_120x161.swf"/&gt;
+					&lt;xsl:page name="SearchAdvanceB.asp" value="new_kopel_key_120x162.swf"/&gt;
+					&lt;xsl:page name="SearchQuickB.asp" value="new_kopel_key_120x163.swf"/&gt;
+					&lt;xsl:page name="SearchQuickBNew.asp" value="new_kopel_key_120x164.swf"/&gt;
+					&lt;xsl:page name="icar.asp" value="new_kopel_key_120x165.swf"/&gt;
+					&lt;xsl:page name="SearchResultB.asp" value="new_kopel_key_120x166.swf"/&gt;
+					&lt;xsl:page name="service.asp" value="new_kopel_key_120x167.swf"/&gt;
+					&lt;xsl:page name="SI_jobs.asp" value="new_kopel_key_120x168.swf"/&gt;
+					&lt;xsl:page name="SI_orderFix.asp" value="new_kopel_key_120x169.swf"/&gt;
+					&lt;xsl:page name="SI_writeus.asp" value="new_kopel_key_120x170.swf"/&gt;
+					&lt;xsl:page name="SupplementsB.asp" value="new_kopel_key_120x171.swf"/&gt;
+					&lt;xsl:page name="branches.asp" value="new_kopel_key_120x172.swf"/&gt;
+					&lt;xsl:page name="login.asp" value="new_kopel_key_120x173.swf"/&gt;
+					&lt;xsl:page name="makelogin.asp" value="new_kopel_key_120x174.swf"/&gt;
+					&lt;xsl:page name="personal.asp" value="new_kopel_key_120x175.swf"/&gt;
+				&lt;/xsl:language&gt;
+			&lt;/xsl:category&gt;
+		&lt;/xsl:categories&gt;
+</pre>
+
+
 Online Demo
 -------------
 
