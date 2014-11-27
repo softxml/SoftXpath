@@ -124,16 +124,16 @@ Our XML file called "flash_vs_page.xml" and it's structure shown below:
 JavaScript Code
 -------------
 <pre>
-var myXpathObj = new SoftXpath();
+	var myXpathObj = new SoftXpath();
 	myXpathObj.registerNamespace("xsl","http://www.softxml.com");
 	if(myXpathObj.load("flash_vs_page.xml")){
-		re = myXpathObj.selectNodes("//page[./parent::language[@name='he'] and ./@name='aboutSixt.asp']/@value");
-		if(re.length==0){
+		var results = myXpathObj.selectNodes("//page[./parent::language[@name='he'] and ./@name='aboutSixt.asp']/@value");
+		if(results.length==0){
 			alert("No records found!");
 		}
 		else{
-			for(var i=0;i<re.length;i++){
-				alert(re[i].text);
+			for(var i=0;i<results.length;i++){
+				alert(results[i].text);
 			}
 		}	
 	}
