@@ -132,7 +132,7 @@ JavaScript Code
 			alert("No records found!");
 		}
 		else{
-			for(var i=0;i<results.length;i++){
+			for(var i=0;i&lt;results.length;i++){
 				alert(results[i].text);
 			}
 		}	
