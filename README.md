@@ -211,3 +211,8 @@ JavaScript Code
 </pre>
 
 
+
+Online Demo
+-------------
+
+[SoftXpath Online Demo](http://www.softxml.com/SoftXPathDemo.htm)
