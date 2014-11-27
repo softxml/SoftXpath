@@ -1,4 +1,4 @@
 SoftXpath
 =========
 
-SoftXPath is small cross browser JavaScript library written for web developers who deals with XML parsing/querying on client side. With the help of SoftXPath you will be able to query complex XML documents using powerful Xpath expressions. Now you can focus on building effective Xpath expressions instead of wasting time on browser compatibility issues.
+SoftXPath is small cross browser JavaScript XML library for parsing/querying complex XML documents on client side using powerful Xpath expressions. Focus on building effective Xpath expressions instead of wasting time on browser compatibility issues.
