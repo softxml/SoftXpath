@@ -29,7 +29,6 @@ SoftXPath Tutorials & Examples
 |:----|:----|:----|:----
 |**load**|expects valid path to <b>xml file</b> as parameter and loads given file|`myXpathObj.load("flash_vs_page.xml")`|`true/false`
 |**loadXML**|expects valid <b>xml string</b> as parameter and loads given string|`myXpathObj.loadXML("<root><item color='blue'>demo1</item><item color='red'>demo2</item><item color='blue'>demo3</item></root>")`|`true/false`
-
 |**selectNodes**|expects valid <b>xpath expression</b> and returns array of objects|`var results = myXpathObj.selectNodes("//item[@color='blue']")`|var results = myXpathObj.<b>selectNodes</b>("//item[@color='blue']");<br>
 <b>Check array length to see if there are matched nodes:</b><br>
 <pre>if(results.length==0){
